@@ -1,13 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A brief blog app to create text posts
 
 Things you may want to cover:
 
-* Ruby version
+* ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
 
-* System dependencies
+* Node js, rails 
 
 * Configuration
 
