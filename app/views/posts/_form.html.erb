@@ -16,6 +16,12 @@
     <%= form.text_field :title %>
   </div>
 
+
+    <div class="field">   <%# Se el rectangulo de body  %>
+      <%= form.label :body %> <%# Se cambia al atributo body  %>
+      <%= form.text_area :body %> <%# text_area agrega más area para agregar texto que text_field y se cambia al atributo body  %>
+    </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
