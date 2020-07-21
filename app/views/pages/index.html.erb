@@ -1,0 +1,10 @@
+<h1> Paginas Blog </h1>
+
+<br>
+
+<% @pages.each do |page| %>
+    <p> <%= link_to page.title,  page_path(page) %> </p>
+<% end %>
+
+<br>
+<%= link_to 'Nueva entrada del Blog', new_page_path %>
