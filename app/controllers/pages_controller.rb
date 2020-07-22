@@ -22,10 +22,7 @@ class PagesController < ApplicationController
     end 
 
 
-    def edit 
-        #@page = Page.find(params[:id])
-        #set_page
-    end 
+    
 
     def destroy 
         #@page = Page.find(params[:id])
@@ -34,6 +31,11 @@ class PagesController < ApplicationController
         redirect_to pages_path
     end 
 
+    def edit 
+        #@page = Page.find(params[:id])
+        #set_page
+    end 
+    
     def update 
         # Look up the existing model record based
         # on an ID from the request path.
